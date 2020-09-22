@@ -1,0 +1,46 @@
+body {
+    background-color: black !important;
+}
+
+// .hover-card-m {
+//     display: none;
+//     position: absolute;
+//   width: 400px;
+//   height: 200px;
+//   background-color: lightseagreen;
+//   border-radius: 20px;
+//   color: "white";
+//   padding: 16px;
+//   font-size: 2em;
+//   z-index: 100;
+//   &:hover {
+//       display: block;
+//   }
+// }
+
+.hover-card-m { 
+    position: absolute;
+    z-index: 100;
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    color: white;
+    top: 0%;
+    left: 0%;
+    transform: translate(50%, 50%);
+    padding: 35px;
+    font-size: 2rem;
+}
+
+
+
+// .hover-card-m span {
+//     display: none;
+//     position: absolute;
+//     color: #fff;
+//     background-color: lightseagreen;
+//     z-index: 100;
+//     &:hover span {
+//         display: block;
+//     }
+// }
